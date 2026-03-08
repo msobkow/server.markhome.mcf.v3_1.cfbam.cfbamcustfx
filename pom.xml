@@ -2,15 +2,15 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.github.msobkow</groupId>
-    <artifactId>io.github.msobkow.v3_1</artifactId>
-    <version>3.1</version>
+    <groupId>server.markhome.mcf</groupId>
+    <artifactId>server.markhome.mcf.v3_1</artifactId>
+    <version>3.1.42</version>
   </parent>
 
-  <groupId>io.github.msobkow.v3_1</groupId>
-  <artifactId>io.github.msobkow.v3_1.cfbam.cfbamcustfx</artifactId>
-  <version>3.1</version>
-  <name>io.github.msobkow.v3_1.cfbam.cfbamcustfx</name>
+  <groupId>server.markhome.mcf.v3_1</groupId>
+  <artifactId>server.markhome.mcf.v3_1.cfbam.cfbamcustfx</artifactId>
+  <version>3.1.42</version>
+  <name>server.markhome.mcf.v3_1.cfbam.cfbamcustfx</name>
   <description>mcf 3.1 CFBam cfbamcustfx - Customization of JavaFX components for CFBam applications</description>
   <url>mailto:mark.sobkow@gmail.com</url>
 
@@ -33,19 +33,19 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.github.msobkow.v3_1</groupId>
-      <artifactId>io.github.msobkow.v3_1.cflib</artifactId>
-      <version>3.1</version>
+      <groupId>server.markhome.mcf.v3_1</groupId>
+      <artifactId>server.markhome.mcf.v3_1.cflib</artifactId>
+      <version>3.1.42</version>
     </dependency>
     <dependency>
-      <groupId>io.github.msobkow.v3_1</groupId>
-      <artifactId>io.github.msobkow.v3_1.cflib.dbutil</artifactId>
-      <version>3.1</version>
+      <groupId>server.markhome.mcf.v3_1</groupId>
+      <artifactId>server.markhome.mcf.v3_1.cflib.dbutil</artifactId>
+      <version>3.1.42</version>
     </dependency>
     <dependency>
-      <groupId>io.github.msobkow.v3_1</groupId>
-      <artifactId>io.github.msobkow.v3_1.cflib.javafx</artifactId>
-      <version>3.1</version>
+      <groupId>server.markhome.mcf.v3_1</groupId>
+      <artifactId>server.markhome.mcf.v3_1.cflib.javafx</artifactId>
+      <version>3.1.42</version>
     </dependency>
     <dependency>
         <groupId>ch.qos.logback</groupId>
@@ -90,69 +90,59 @@
       <version>${javafx.version}</version>
     </dependency>
     <dependency>
-        <groupId>io.github.msobkow.v3_1</groupId>
-        <artifactId>io.github.msobkow.v3_1.cfsec.cfsec</artifactId>
-        <version>3.1</version>
+        <groupId>server.markhome.mcf.v3_1</groupId>
+        <artifactId>server.markhome.mcf.v3_1.cfsec.cfsec</artifactId>
+        <version>3.1.42</version>
     </dependency>
     <dependency>
-        <groupId>io.github.msobkow.v3_1</groupId>
-        <artifactId>io.github.msobkow.v3_1.cfsec.cfsecbuff</artifactId>
-        <version>3.1</version>
+        <groupId>server.markhome.mcf.v3_1</groupId>
+        <artifactId>server.markhome.mcf.v3_1.cfsec.cfsecbuff</artifactId>
+        <version>3.1.42</version>
     </dependency>
     <dependency>
-        <groupId>io.github.msobkow.v3_1</groupId>
-        <artifactId>io.github.msobkow.v3_1.cfsec.cfsecjavafx</artifactId>
-        <version>3.1</version>
+        <groupId>server.markhome.mcf.v3_1</groupId>
+        <artifactId>server.markhome.mcf.v3_1.cfsec.cfsecjavafx</artifactId>
+        <version>3.1.42</version>
     </dependency>
     <dependency>
-        <groupId>io.github.msobkow.v3_1</groupId>
-        <artifactId>io.github.msobkow.v3_1.cfsec.cfseccustfx</artifactId>
-        <version>3.1</version>
+        <groupId>server.markhome.mcf.v3_1</groupId>
+        <artifactId>server.markhome.mcf.v3_1.cfsec.cfseccustfx</artifactId>
+        <version>3.1.42</version>
     </dependency>
     <dependency>
-        <groupId>io.github.msobkow.v3_1</groupId>
-        <artifactId>io.github.msobkow.v3_1.cfint.cfint</artifactId>
-        <version>3.1</version>
+        <groupId>server.markhome.mcf.v3_1</groupId>
+        <artifactId>server.markhome.mcf.v3_1.cfint.cfint</artifactId>
+        <version>3.1.42</version>
     </dependency>
     <dependency>
-        <groupId>io.github.msobkow.v3_1</groupId>
-        <artifactId>io.github.msobkow.v3_1.cfint.cfintbuff</artifactId>
-        <version>3.1</version>
+        <groupId>server.markhome.mcf.v3_1</groupId>
+        <artifactId>server.markhome.mcf.v3_1.cfint.cfintbuff</artifactId>
+        <version>3.1.42</version>
     </dependency>
     <dependency>
-        <groupId>io.github.msobkow.v3_1</groupId>
-        <artifactId>io.github.msobkow.v3_1.cfint.cfintjavafx</artifactId>
-        <version>3.1</version>
+        <groupId>server.markhome.mcf.v3_1</groupId>
+        <artifactId>server.markhome.mcf.v3_1.cfint.cfintjavafx</artifactId>
+        <version>3.1.42</version>
     </dependency>
     <dependency>
-        <groupId>io.github.msobkow.v3_1</groupId>
-        <artifactId>io.github.msobkow.v3_1.cfint.cfintcustfx</artifactId>
-        <version>3.1</version>
+        <groupId>server.markhome.mcf.v3_1</groupId>
+        <artifactId>server.markhome.mcf.v3_1.cfint.cfintcustfx</artifactId>
+        <version>3.1.42</version>
     </dependency>
     <dependency>
-        <groupId>io.github.msobkow.v3_1</groupId>
-        <artifactId>io.github.msobkow.v3_1.cfbam.cfbam</artifactId>
-        <version>3.1</version>
+        <groupId>server.markhome.mcf.v3_1</groupId>
+        <artifactId>server.markhome.mcf.v3_1.cfbam.cfbam</artifactId>
+        <version>3.1.42</version>
     </dependency>
     <dependency>
-        <groupId>io.github.msobkow.v3_1</groupId>
-        <artifactId>io.github.msobkow.v3_1.cfbam.cfbambuff</artifactId>
-        <version>3.1</version>
+        <groupId>server.markhome.mcf.v3_1</groupId>
+        <artifactId>server.markhome.mcf.v3_1.cfbam.cfbambuff</artifactId>
+        <version>3.1.42</version>
     </dependency>
     <dependency>
-        <groupId>io.github.msobkow.v3_1</groupId>
-        <artifactId>io.github.msobkow.v3_1.cfbam.cfbamjavafx</artifactId>
-        <version>3.1</version>
-    </dependency>
-    <dependency>
-        <groupId>org.aspectj</groupId>
-        <artifactId>aspectjrt</artifactId>
-		<version>${aspectj-runtime.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>org.aspectj</groupId>
-        <artifactId>aspectjtools</artifactId>
-		<version>${aspectj-runtime.version}</version>
+        <groupId>server.markhome.mcf.v3_1</groupId>
+        <artifactId>server.markhome.mcf.v3_1.cfbam.cfbamjavafx</artifactId>
+        <version>3.1.42</version>
     </dependency>
   </dependencies>
 
@@ -160,12 +150,12 @@
 		<repository>
 			<id>nexus-releases</id>
 			<name>Nexus release repository</name>
-			<url>http://nexus3.msobkow.github.io:8081/repository/msobkow.github.io-hosted/</url>
+			<url>http://nexus3.mcf.markhome.server:8081/repository/mcf.markhome.server-hosted/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
 			<name>Nexus release repository</name>
-			<url>http://nexus3.msobkow.github.io:8081/repository/msobkow.github.io-hosted/</url>
+			<url>http://nexus3.mcf.markhome.server:8081/repository/mcf.markhome.server-hosted/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
@@ -201,7 +191,7 @@
 				</executions>
 				<configuration>
 					<serverId>nexus</serverId>
-					<nexusUrl>http://nexus3.msobkow.github.io:8081/repository/msobkow.github.io-hosted/</nexusUrl>
+					<nexusUrl>http://nexus3.mcf.markhome.server:8081/repository/mcf.markhome.server-hosted/</nexusUrl>
 					<skipStaging>true</skipStaging>
 				</configuration>
 			</plugin>
